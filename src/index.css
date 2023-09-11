@@ -3,6 +3,34 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply px-3 2xl:px-14;
+@layer components {
+  /* Margin for Mobile Layout */
+  .m-m-1 {
+    @apply mx-[10px];
+  }
+
+  .m-m-2 {
+    @apply mx-[40px];
+  }
+
+  /* Margin for Desktop */
+  .m-d-1 {
+    @apply 2xl:mx-14;
+  }
+
+  .m-d-2 {
+    @apply 2xl:mx-[165px];
+  }
+
+  .m-d-3 {
+    @apply 2xl:ms-[277px];
+  }
+
+  .heading-1 {
+    @apply text-2xl 2xl:text-5xl text-gray-1 font-poppins font-medium;
+  }
+
+  .heading-2 {
+    @apply 2xl:text-4xl text-gray-1 font-poppins font-medium;
+  }
 }

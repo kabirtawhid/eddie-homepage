@@ -3,5 +3,22 @@
   "navLinks": ["Home", "Services", "Our Works", "Clients", "Contacts"],
   "photos": {
     "hero": "/src/assets/heroImage.jpg"
-  }
+  },
+  "Services": [
+    {
+      "icon": "",
+      "heading": "UI/UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis."
+    },
+    {
+      "icon": "",
+      "heading": "Front End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis."
+    },
+    {
+      "icon": "",
+      "heading": "Back End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis."
+    }
+  ]
 }
