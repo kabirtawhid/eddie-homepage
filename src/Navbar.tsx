@@ -1,7 +1,7 @@
 import { Close, Menu } from "@mui/icons-material";
 import { useState } from "react";
 
-function Navbar({ navLinks, logo }) {
+function Navbar({ data }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMenu = () => {
@@ -11,7 +11,7 @@ function Navbar({ navLinks, logo }) {
     <nav className="m-d-1 flex justify-between items-center max-md:py-3  2xl:mt-10 max-md:shadow max-md:px-3  bg-white  ">
       <div className="flex justify-between max-md: w-full">
         <h2 className="font-heebo text-2xl  2xl:text-4xl font-extrabold text-gray-1">
-          {logo}
+          {data?.logo}
         </h2>
         <div className="md:hidden " onClick={handleMenu}>
           {isOpen ? <Close /> : <Menu />}
@@ -24,7 +24,7 @@ function Navbar({ navLinks, logo }) {
             : ""
         } bg-white`}
       >
-        {navLinks?.map((x: string) => (
+        {data?.navLinks.map((x: string) => (
           <Navlink navLink={x} key={x} />
         ))}
       </ul>

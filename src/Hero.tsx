@@ -1,9 +1,13 @@
-function Hero({ photo }) {
+function Hero({ data }) {
   return (
     <section className="hero mt-12  2xl:mt-24">
       <Heading />
       <div className="m-d-1 m-m-1 mt-[42px]">
-        <img className="w-full rounded-[18px]" src={photo} alt="" />
+        <img
+          className="w-full rounded-[18px]"
+          src={`/src/assets/${data?.photo}`}
+          alt=""
+        />
       </div>
       <Description />
     </section>

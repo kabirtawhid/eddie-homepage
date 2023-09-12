@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Services from "./Services";
+import Projects from "./Projects";
 
 function App() {
   const [data, setData] = useState(null);
@@ -20,9 +21,10 @@ function App() {
   }, []);
   return (
     <>
-      <Navbar navLinks={data?.navLinks} logo={data?.logo} />
-      <Hero photo={data?.photos?.hero} />
+      <Navbar data={data?.navbar} />
+      <Hero data={data?.hero} />
       <Services data={data?.services} />
+      <Projects data={data?.projects} />
     </>
   );
 }

@@ -1,9 +1,10 @@
 {
-  "logo": "Eddie",
-  "navLinks": ["Home", "Services", "Our Works", "Clients", "Contacts"],
-  "photos": {
-    "hero": "/src/assets/heroImage.jpg"
+  "navbar": {
+    "logo": "Eddie",
+    "navLinks": ["Home", "Services", "Our Works", "Clients", "Contacts"]
   },
+
+  "hero": { "photo": "heroImage.jpg" },
   "services": [
     {
       "icon": "create",
@@ -22,6 +23,28 @@
       "color": "#EB5757",
       "heading": "Back End",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis."
+    }
+  ],
+  "projects": [
+    {
+      "photo": "smarthome.jpg",
+      "category": "Full stack application",
+      "name": "Smart home dashboard"
+    },
+    {
+      "photo": "onboard.png",
+      "category": "UX/UI design",
+      "name": "Onboard application"
+    },
+    {
+      "photo": "booking.png",
+      "category": "Mobile application",
+      "name": "Booking system"
+    },
+    {
+      "photo": "juice-product.png",
+      "category": "Front End application",
+      "name": "Juice product homepage"
     }
   ]
 }
