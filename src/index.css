@@ -31,6 +31,6 @@
   }
 
   .heading-2 {
-    @apply 2xl:text-4xl text-gray-1 font-poppins font-medium;
+    @apply text-2xl 2xl:text-4xl text-gray-1 font-poppins font-medium;
   }
 }
