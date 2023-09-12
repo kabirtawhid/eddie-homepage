@@ -22,7 +22,7 @@ function App() {
     <>
       <Navbar navLinks={data?.navLinks} logo={data?.logo} />
       <Hero photo={data?.photos?.hero} />
-      <Services />
+      <Services data={data?.services} />
     </>
   );
 }

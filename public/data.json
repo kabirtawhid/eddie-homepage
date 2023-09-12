@@ -4,19 +4,22 @@
   "photos": {
     "hero": "/src/assets/heroImage.jpg"
   },
-  "Services": [
+  "services": [
     {
-      "icon": "",
+      "icon": "create",
+      "color": "#2D9CDB",
       "heading": "UI/UX Design",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis."
     },
     {
-      "icon": "",
+      "icon": "code",
+      "color": "#27AE60",
       "heading": "Front End",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis."
     },
     {
-      "icon": "",
+      "icon": "storage",
+      "color": "#EB5757",
       "heading": "Back End",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis."
     }
