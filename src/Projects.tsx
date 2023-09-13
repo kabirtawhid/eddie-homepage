@@ -27,7 +27,7 @@ function Projects({ data }) {
         ))}
       </div>
       <div className="m-m-1 m-d-2 mt-9 relative">
-        <button className="flex items-center gap-2 text-lg text-blue-1 font-medium absolute right-0 top-[-80px]">
+        <button className="flex items-center gap-2 text-lg text-blue-1 font-medium md:absolute right-0 top-[-80px]">
           <p className="pb-1">see more</p>
           <span className="material-icons">arrow_right_alt</span>
         </button>

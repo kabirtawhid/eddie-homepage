@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Services from "./Services";
 import Projects from "./Projects";
+import Team from "./Team";
 
 function App() {
   const [data, setData] = useState(null);
@@ -25,6 +26,7 @@ function App() {
       <Hero data={data?.hero} />
       <Services data={data?.services} />
       <Projects data={data?.projects} />
+      <Team />
     </>
   );
 }

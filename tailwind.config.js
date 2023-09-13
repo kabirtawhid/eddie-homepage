@@ -15,6 +15,7 @@ export default {
         "gray-5": "#e0e0e0",
         "gray-6": "#f2f2f2",
         "blue-1": "#2d9cdb",
+        "red-1": "#eb5757",
       },
       screens: {
         "2xl": "1440px",
