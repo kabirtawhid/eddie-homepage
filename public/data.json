@@ -46,5 +46,8 @@
       "category": "Front End application",
       "name": "Juice product homepage"
     }
-  ]
+  ],
+  "team": {
+    "photo" : ["person3.png", "person1.png", "person2.png"]
+  }
 }

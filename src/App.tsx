@@ -26,7 +26,7 @@ function App() {
       <Hero data={data?.hero} />
       <Services data={data?.services} />
       <Projects data={data?.projects} />
-      <Team />
+      <Team data={data?.team} />
     </>
   );
 }
