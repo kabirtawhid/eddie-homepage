@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Services from "./Services";
 import Projects from "./Projects";
 import Team from "./Team";
+import Testmonial from "./Testmonial";
 
 function App() {
   const [data, setData] = useState(null);
@@ -27,6 +28,7 @@ function App() {
       <Services data={data?.services} />
       <Projects data={data?.projects} />
       <Team data={data?.team} />
+      <Testmonial data={data?.testmonial} />
     </>
   );
 }

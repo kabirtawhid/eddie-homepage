@@ -48,6 +48,14 @@
     }
   ],
   "team": {
-    "photo" : ["person3.png", "person1.png", "person2.png"]
-  }
+    "photo": ["person3.png", "person1.png", "person2.png"]
+  },
+  "testmonial": [
+    {
+      "description": "“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”",
+      "photo": "person4.png",
+      "author": "Carlos Tran",
+      "institution": "The Decorate Gatsby"
+    }
+  ]
 }

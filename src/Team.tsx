@@ -1,7 +1,10 @@
 function Team({ data }) {
   const photo = data ? data.photo : Array(3).fill("");
   return (
-    <div id="team" className="mt-[100px] m-m-1 flex flex-col gap-9">
+    <div
+      id="team"
+      className="mt-[100px] m-m-1 2xl:m-d-2 flex flex-col 2xl:flex-row 2xl:justify-between 2xl:items-center gap-9"
+    >
       <div>
         <h4 className="text-red-1 text-lg font-medium font-poppins">
           Meet the team
