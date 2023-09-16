@@ -1,7 +1,6 @@
-import { Close, Menu } from "@mui/icons-material";
 import { useState } from "react";
 
-function Navbar({ data }) {
+function Navbar({ data, Icon, icon }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMenu = () => {
@@ -14,7 +13,11 @@ function Navbar({ data }) {
           {data?.logo}
         </h2>
         <div className="md:hidden " onClick={handleMenu}>
-          {isOpen ? <Close /> : <Menu />}
+          {isOpen ? (
+            <Icon path={icon.close} size={"24px"} />
+          ) : (
+            <Icon path={icon.menu} size={"24px"} />
+          )}
         </div>
       </div>
       <ul

@@ -57,5 +57,14 @@
       "author": "Carlos Tran",
       "institution": "The Decorate Gatsby"
     }
-  ]
+  ],
+  "footer": {
+    "links": [
+      { "name": "Home", "src": "" },
+      { "name": "Services", "src": "" },
+      { "name": "Our Works", "src": "" },
+      { "name": "Clients", "src": "" },
+      { "name": "Contacts", "src": "" }
+    ]
+  }
 }
